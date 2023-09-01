@@ -3,6 +3,7 @@ const saveOptions = () => {
   const port = document.getElementById('port').value;
 
   chrome.storage.sync.set({ port });
+  window.close();
 };
 
 // Restores select box and checkbox state using the preferences
