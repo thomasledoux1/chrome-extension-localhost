@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Convert to localhost",
+  "description": "Convert your current URL to localhost",
+  "version": "1.0",
+  "action": {
+    "default_popup": "convert-to-localhost.html",
+    "default_icon": "localhost-icon.png"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": false
+  },
+  "permissions": ["tabs", "storage"]
+}
